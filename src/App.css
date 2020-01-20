@@ -1,0 +1,61 @@
+*{
+  margin: auto 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+menu {
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(rgba(113, 181, 255, 0.99), royalblue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+a:-webkit-any-link {
+text-decoration-line: none;
+}
+
+.MuiButton-containedSecondary{
+  margin-left: 15px !important;
+}
+
+.Signup-textField-33{
+  margin-right: 0px !important;
+  margin-left: 0px !important ;
+}
+
+/*.MuiGrid-spacing-xs-2 > .MuiGrid-item{*/
+/*  padding: 0px !important;*/
+/*}*/
+
+.MuiButton-fullWidth {
+  padding: 13px !important;
+}
+
+.MuiGrid-spacing-xs-2 {
+    width: 100%;
+    margin: 0;
+}
